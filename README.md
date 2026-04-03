@@ -26,7 +26,7 @@ knhanes-stratified-health-grade/
 │   └── README_data.md                  # KNHANES 원시 데이터 접근 안내 (데이터 미포함)
 │
 ├── outputs/                            # 실행 후 자동 생성
-│   ├── knhanes_preprocessed.csv
+│   ├── (비공개)knhanes_preprocessed.csv
 │   ├── 표1_집단별기술통계.csv
 │   ├── 표2_알고리즘성능비교_HO.csv
 │   ├── 표3_알고리즘성능비교_CV.csv

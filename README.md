@@ -169,12 +169,12 @@ hn24_all.sas7bdat  # KNHANES 2024
 
 **Step 2. Part 1 실행** (데이터 전처리 → 모델 학습 → K-means 등급 → SHAP)
 ```bash
-python part1_modeling_pipeline_v2.1.py
+python part1_modeling_pipeline.py
 ```
 
 **Step 3. Part 2 실행** (거버넌스 G1–G4 평가 → 그림 2–12 생성)
 ```bash
-python part2_governance_evaluation_v2.1.py
+python part2_governance_evaluation.py
 ```
 
 > Part 1 완료 시 `df_final.parquet` 및 `*.pkl` 직렬화 파일이 생성됩니다.  

@@ -1,0 +1,17 @@
+﻿질환,원칙,지표,값,기준,판정,규제근거,비고
+당뇨,G1 공정성,Δ-AUC,0.2516,< 0.10,위험 X,EU AI Act Art.10,6집단 층화 완화 적용
+당뇨,G1 공정성,Equalized Odds Gap,0.9205,< 0.15,위험 X,금융위 AI 가이드라인,6집단 층화 완화 적용
+당뇨,G1 공정성,ECE Gap,0.1171,< 0.05,위험 X,의료기기 소프트웨어 가이드라인,
+당뇨,G2 견고성,CV vs HO Gap,0.0282,< 0.03,양호 O,OECD AI 원칙,집단 평균값
+당뇨,G2 견고성,Temporal Gap (2024),0.1289,< 0.05,위험 X,OECD AI 원칙,횡단면 구조 — 단일연도 분할 한계
+당뇨,G2 견고성,Perturbation AUC Drop,0.011,< 0.03,양호 O,OECD AI 원칙,±10% 가우시안 노이즈 5회 평균
+당뇨,G3 투명성,SHAP HHI (Bootstrap 95% CI),0.1257 [0.1211–0.1302],< 0.15,양호 O,개보법 제37조의2,HHI 낮을수록 설명 분산 — 투명성 높음
+당뇨,G4 설명책임,Model Card Score,0.8,≥ 0.80,양호 O,EU AI Act Art.13,"8/10 충족; 미충족: human-in-the-loop, PIA"
+고혈압,G1 공정성,Δ-AUC,0.1496,< 0.10,주의 -,EU AI Act Art.10,6집단 층화 완화 적용
+고혈압,G1 공정성,Equalized Odds Gap,1.2505,< 0.15,위험 X,금융위 AI 가이드라인,6집단 층화 완화 적용
+고혈압,G1 공정성,ECE Gap,0.2662,< 0.05,위험 X,의료기기 소프트웨어 가이드라인,
+고혈압,G2 견고성,CV vs HO Gap,0.0387,< 0.03,주의 -,OECD AI 원칙,집단 평균값
+고혈압,G2 견고성,Temporal Gap (2024),0.1348,< 0.05,위험 X,OECD AI 원칙,횡단면 구조 — 단일연도 분할 한계
+고혈압,G2 견고성,Perturbation AUC Drop,0.0187,< 0.03,양호 O,OECD AI 원칙,±10% 가우시안 노이즈 5회 평균
+고혈압,G3 투명성,SHAP HHI (Bootstrap 95% CI),0.0918 [0.0885–0.0952],< 0.15,양호 O,개보법 제37조의2,HHI 낮을수록 설명 분산 — 투명성 높음
+고혈압,G4 설명책임,Model Card Score,0.8,≥ 0.80,양호 O,EU AI Act Art.13,"8/10 충족; 미충족: human-in-the-loop, PIA"

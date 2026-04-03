@@ -1,0 +1,9 @@
+﻿원칙,지표,양호기준,주의기준,완화적용근거,선행연구,규제근거,도메인적합성_주석
+G1 공정성,Δ-AUC (집단간 AUC 격차),Δ < 0.10,Δ < 0.20,6집단 층화로 구조적 유병률 이질성 존재 — 단일집단 기준(0.05) 완화,Chouldechova (2017),EU AI Act Art.10 §데이터 거버넌스,금융 AI 기준 차용; 의료 전용 기준 향후 연구 필요
+G1 공정성,Equalized Odds Gap (TPR+FPR 격차합),EO < 0.15,EO < 0.30,6집단 유병률 이질성 반영 — 단일집단 기준(0.10) 완화,Hardt et al. (2016),금융위 AI 가이드라인 §공정성,금융 AI 기준 차용; 의료 전용 기준 향후 연구 필요
+G1 공정성,ECE Gap (보정오차 집단간 격차),ECE < 0.05,ECE < 0.10,의료 AI 표준 ECE 기준 직접 적용,Naeini et al. (2015),의료기기 소프트웨어 가이드라인,의료 AI 권고 기준 — 도메인 적합성 높음
+G2 견고성,CV vs HO AUC Gap,|Gap| < 0.03,|Gap| < 0.05,표준 nested CV 안정성 기준 직접 적용,Varma & Simon (2006),OECD AI 원칙 §견고성·안전성,통계학적 범용 기준 — 도메인 적합성 높음
+G2 견고성,Temporal AUC Gap (2024년 검증),|Gap| < 0.05,|Gap| < 0.10,횡단면 데이터 구조상 단일연도 분할 — 종단 대비 제한적,Nestor et al. (2019),OECD AI 원칙 §견고성·안전성,횡단면 한계로 단일 연도 분할; 코호트 연계 시 개선 가능
+G2 견고성,Feature Perturbation AUC Drop (±10% 노이즈),Drop < 0.03,Drop < 0.05,데이터 내성 범용 기준 직접 적용,Ghorbani & Zou (2019),OECD AI 원칙 §견고성·안전성,범용 robustness 기준 — 도메인 적합성 높음
+G3 투명성,"SHAP HHI (변수 중요도 집중도, Bootstrap 95% CI)",HHI < 0.15,HHI < 0.25,HHI 낮을수록 다수 변수 분산 설명 — 투명성 높음,Lundberg et al. (2020),개인정보보호법 제37조의2 §설명요구권,DOJ/FTC 경쟁집중도 기준 차용; XAI 설명 분산도로 재해석
+G4 설명책임,Model Card Score (10개 항목 체크리스트),Score ≥ 0.80,Score ≥ 0.60,"10개 항목 중 8개 충족 (미충족: human-in-the-loop, PIA)",Mitchell et al. (2019),EU AI Act Art.13 §투명성; OECD AI 원칙,국제 표준 Model Card 기준 — 도메인 적합성 높음
